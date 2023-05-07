@@ -1,0 +1,37 @@
+body{
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    /* it will do horizontal center */
+    align-items: center;
+    /* it will do vertical center */
+    height: 90vh;
+}
+
+#form-container{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    
+}
+h2{
+    margin:0px 0px 0px 0px;
+}
+
+input{
+    width: 200px;
+    padding: 10px;
+    margin: 10px ;
+}
+
+input[type=submit]{
+    width: 222px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
+.error{
+    color: red;
+    text-align: left;
+    margin: 0px;
+}
